@@ -143,6 +143,15 @@ export const VideoRecognition = () => {
     return "bg-danger/10";
   };
 
+  // Mapeia os nomes das classes
+  const getClassDisplayName = (className: string) => {
+    const classMap: Record<string, string> = {
+      "Class 1": "positivo",
+      "Class 2": "negativo"
+    };
+    return classMap[className] || className;
+  };
+
   // Determina a mensagem de feedback
   const getFeedbackMessage = () => {
     if (!prediction) return "Aguardando reconhecimento...";
@@ -219,7 +228,7 @@ export const VideoRecognition = () => {
           <div className="space-y-4 animate-scale-in">
             <div>
               <p className="text-sm text-muted-foreground mb-1">Classe Detectada:</p>
-              <p className="text-2xl font-bold text-card-foreground">{prediction.className}</p>
+              <p className="text-2xl font-bold text-card-foreground">{getClassDisplayName(prediction.className)}</p>
             </div>
 
             <div>

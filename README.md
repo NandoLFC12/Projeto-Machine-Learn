@@ -1,67 +1,56 @@
-Projeto Lovable – Aplicação Web em React
 
-Este repositório contém uma aplicação web desenvolvida com React + TypeScript, utilizando tecnologias modernas do ecossistema frontend.
+# Bem-vindo ao meu projeto feito na Lovable #
 
-🔗 Projeto online
+*Informações do projeto*
 
-URL: https://lovable.dev/projects/3106beca-3fd5-4187-8ac6-a35feafe1689
+**URL**: [https://lovable.dev/projects/3106beca-3fd5-4187-8ac6-a35feafe1689](https://lovable.dev/projects/3106beca-3fd5-4187-8ac6-a35feafe1689)
 
-🧑‍💻 Sobre o projeto
+## Como posso editar este código?
 
-Este projeto foi criado como parte do meu aprendizado e prática em desenvolvimento frontend, com foco em:
+Existem várias formas de editar sua aplicação.
 
-Componentização
+### **Usando o Lovable**
 
-Boas práticas com React
+Basta acessar o [Projeto no Lovable](https://lovable.dev/projects/3106beca-3fd5-4187-8ac6-a35feafe1689) e começar a escrever prompts.
 
-Estilização moderna e responsiva
+As alterações feitas pelo Lovable serão automaticamente commitadas neste repositório.
 
-Uso de ferramentas atuais do mercado
+### **Usando sua IDE preferida**
 
-🚀 Tecnologias utilizadas
+Se quiser trabalhar localmente usando sua própria IDE, você pode clonar este repositório e enviar as alterações. As mudanças enviadas também serão refletidas no Lovable.
 
-React
+O único requisito é ter o **Node.js** e o **npm** instalados — [instale usando o nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-TypeScript
+Siga os passos abaixo:
 
-Vite
+```sh
+# Passo 1: Clone o repositório usando a URL Git do projeto.
+git clone <SUA_URL_GIT>
 
-Tailwind CSS
+# Passo 2: Acesse o diretório do projeto.
+cd <NOME_DO_SEU_PROJETO>
 
-shadcn/ui
+# Passo 3: Instale as dependências necessárias.
+npm i
 
-▶️ Como executar o projeto localmente
-Pré-requisitos
-
-Node.js
-
-npm
-
-Passos
-# Clone o repositório
-git clone <URL_DO_REPOSITORIO>
-
-# Acesse a pasta do projeto
-cd <NOME_DO_PROJETO>
-
-# Instale as dependências
-npm install
-
-# Inicie o servidor de desenvolvimento
+# Passo 4: Inicie o servidor de desenvolvimento com recarregamento automático e pré-visualização instantânea.
 npm run dev
+```
 
+### **Editar um arquivo diretamente no GitHub**
 
-A aplicação ficará disponível em http://localhost:5173 (ou porta indicada no terminal).
+* Navegue até o(s) arquivo(s) desejado(s).
+* Clique no botão **Editar** (ícone de lápis) no canto superior direito da visualização do arquivo.
+* Faça suas alterações e realize o commit.
 
-☁️ Deploy
+### **Usar o GitHub Codespaces**
 
-O deploy é feito diretamente pela plataforma Lovable, através da opção:
-Share → Publish
+* Vá até a página principal do seu repositório.
+* Clique no botão **Code** (botão verde) no canto superior direito.
+* Selecione a aba **Codespaces**.
+* Clique em **New codespace** para criar um novo ambiente.
+* Edite os arquivos diretamente no Codespaces e faça commit e push das alterações quando terminar.
 
-🌐 Domínio personalizado
+## Quais tecnologias são usadas neste projeto?
 
-É possível conectar um domínio personalizado nas configurações do projeto dentro do Lovable.
-
-📌 Observação
-
-Este projeto tem como objetivo demonstrar conhecimentos em frontend moderno, organização de código e uso de ferramentas atuais.
+Se quiser, posso **adaptar esse README** para ficar mais profissional ou mais simples para recrutadores 👨‍💻📄

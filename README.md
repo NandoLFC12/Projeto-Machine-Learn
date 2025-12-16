@@ -1,4 +1,3 @@
----
 
 # Bem-vindo ao meu projeto feito na Lovable #
 

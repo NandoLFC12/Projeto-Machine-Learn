@@ -2,7 +2,7 @@
 
 # Bem-vindo ao meu projeto feito na Lovable
 
-Informações do projeto
+*Informações do projeto*
 
 **URL**: [https://lovable.dev/projects/3106beca-3fd5-4187-8ac6-a35feafe1689](https://lovable.dev/projects/3106beca-3fd5-4187-8ac6-a35feafe1689)
 
